@@ -1,0 +1,5 @@
+# SMC (similarity between binary vectors)
+library('nomclust')
+set.seed(720)
+d <- matrix(sample.int(2, 50, replace = TRUE), nrow = 5, byrow = TRUE)
+smc <- sm(d)
